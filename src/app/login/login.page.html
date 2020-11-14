@@ -1,0 +1,35 @@
+<ion-content class="ion-padding" >
+
+  <h1 class="ion-text-center   logo">
+    <img src="../../assets/icon/cpfl.png" >
+  </h1>
+
+<ion-item >
+  <ion-label position="floating" >Usuario</ion-label>
+  <ion-input   [(ngModel)] = "nome"></ion-input>
+</ion-item>
+
+<ion-item >
+  <ion-label position="floating">Senha</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+
+<p class="ion-text-center">
+  <a href="https://servicosonline.cpfl.com.br/agencia-webapp/#/login/recuperarSenha"  >recuperar senha</a>
+</p>
+
+<ion-button (click)="logar()" class="btn_logar" expand="block">
+  Acessar
+</ion-button>
+
+<ion-button href="https://servicosonline.cpfl.com.br/agencia-webapp/#/login/cadastrar-identificacao" class="btn_cadastrar" expand="block" >
+  Cadastrar
+</ion-button>
+
+
+
+
+
+
+</ion-content>

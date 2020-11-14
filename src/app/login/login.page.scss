@@ -1,0 +1,26 @@
+.logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn_cadastrar{
+    margin-top: 15px;
+    --background: linear-gradient(100deg,#069,#0bc)
+}
+
+
+.btn_logar{
+    margin-top: 15px;
+    --background: linear-gradient(100deg,#0bc,#069)
+}
+
+
+
+
+
+  ion-item{
+      //--background: linear-gradient(300deg, #84dbf3, #d7dce0);
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
